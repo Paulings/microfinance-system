@@ -1,58 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microfinance System</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
+        /* CSS styles for the homepage */
         body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
 
-main {
-    padding: 20px;
-}
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-section {
-    margin-bottom: 20px;
-}
+        section {
+            margin-bottom: 20px;
+        }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h2 {
+            color: #444;
+        }
+
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Microfinance System</h1>
@@ -89,8 +111,8 @@ footer {
 
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>Email: info@microfinance.com</p>
-            <p>Phone: +123 456 7890</p>
+            <p>Email: <a href="mailto:info@microfinance.com">info@microfinance.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
         </section>
     </main>
 
@@ -98,4 +120,5 @@ footer {
         <p>&copy; 2024 Microfinance System. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
